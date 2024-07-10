@@ -210,13 +210,122 @@ body {
     margin: 0 auto;
     border-radius: 16px;
 }
-.my-inspiration-container .inspiration-video{
+
+.my-inspiration-container .inspiration-video {
     padding: 16px;
     border: 1px solid rgba(13, 19, 33, 0.2);
     border-radius: 16px;
 }
+
 .my-inspiration-container .inspiration-video iframe {
     width: 100%;
     height: 550px;
     border-radius: 16px;
+}
+
+/* current target section styles */
+.current-target-container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.current-target-container .current-target-content {
+    display: flex;
+    gap: 24px;
+}
+
+.current-target-container .current-target-content .html {
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);
+    padding: 40px;
+    width: 33%;
+}
+
+.current-target-container .current-target-content .html h3 {
+    color: rgb(13, 19, 33);
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 36px;
+    margin-top: 24px;
+    margin-bottom: 8px;
+}
+
+.current-target-container .current-target-content .html p {
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    opacity: 0.7;
+    margin-bottom: 24px;
+}
+
+.current-target-container .current-target-content .html a {
+    color: rgb(13, 19, 33);
+    font-weight: 700;
+    line-height: 19px;
+    text-decoration-line: underline;
+}
+
+.current-target-container .current-target-content .css {
+    border-radius: 16px;
+    background: rgba(0, 76, 232, 0.05);
+    padding: 40px;
+    width: 33%;
+}
+
+.current-target-container .current-target-content .css h3 {
+    color: rgb(13, 19, 33);
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 36px;
+    margin-top: 24px;
+    margin-bottom: 8px;
+}
+
+.current-target-container .current-target-content .css p {
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    opacity: 0.7;
+    margin-bottom: 24px;
+}
+
+.current-target-container .current-target-content .css a {
+    color: rgb(13, 19, 33);
+    font-weight: 700;
+    line-height: 19px;
+    text-decoration-line: underline;
+}
+
+.current-target-container .current-target-content .js {
+    border-radius: 16px;
+    background: rgba(255, 223, 0, 0.05);
+    padding: 40px;
+    width: 33%;
+}
+
+.current-target-container .current-target-content .js h3 {
+    color: rgb(13, 19, 33);
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 36px;
+    margin-top: 24px;
+    margin-bottom: 8px;
+}
+
+.current-target-container .current-target-content .js p {
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    opacity: 0.7;
+    margin-bottom: 24px;
+}
+
+.current-target-container .current-target-content .js a {
+    color: rgb(13, 19, 33);
+    font-weight: 700;
+    line-height: 19px;
+    text-decoration-line: underline;
 }
