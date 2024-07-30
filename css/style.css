@@ -71,7 +71,7 @@ body {
 .banner-container {
     max-width: 1440px;
     height: 652px;
-    background-image: url('/assets/Hero-bg.png');
+    background-image: url('../assets/Hero-bg.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -426,7 +426,8 @@ body {
     font-weight: 600;
     line-height: 23px;
 }
-.footer-container .contact{
+
+.footer-container .contact {
     display: flex;
     gap: 24px;
 }
